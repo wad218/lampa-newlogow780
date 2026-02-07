@@ -745,7 +745,7 @@
             if (!logoPath || !this.html) return;
             
             const titleElement = this.html.find('.new-interface-info__title');
-            const logoUrl = Lampa.TMDB.image('/t/p/original' + logoPath.replace('.svg', '.png'));
+            const logoUrl = Lampa.TMDB.image('/t/p/w300' + logoPath.replace('.svg', '.png'));
             
             // Створюємо зображення логотипу
             const logoImg = $('<img>')
