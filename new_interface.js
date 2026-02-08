@@ -745,14 +745,14 @@
             if (!logoPath || !this.html) return;
             
             const titleElement = this.html.find('.new-interface-info__title');
-            const logoUrl = Lampa.TMDB.image('/t/p/w500' + logoPath.replace('.svg', '.png'));
+            const logoUrl = Lampa.TMDB.image('/t/p/w780' + logoPath.replace('.svg', '.png'));
             
             // Створюємо зображення логотипу
             const logoImg = $('<img>')
                 .attr('src', logoUrl)
                 .attr('alt', data.title || data.name || '')
                 .css({
-                    'max-height': '50px',
+                    'max-height': '42px',
                     'margin-top': '5px',
                     'display': 'block'
                 })
