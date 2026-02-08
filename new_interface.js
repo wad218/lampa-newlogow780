@@ -752,7 +752,7 @@
                 .attr('src', logoUrl)
                 .attr('alt', data.title || data.name || '')
                 .css({
-                    'max-height': '125px',
+                    'max-height': '50px',
                     'margin-top': '5px',
                     'display': 'block'
                 })
